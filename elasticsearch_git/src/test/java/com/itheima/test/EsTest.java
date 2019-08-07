@@ -244,6 +244,7 @@ public class EsTest {
         System.out.println("记录数="+hits.getTotalHits());
         for (SearchHit hit : hits) {
             System.out.println(hit.getSourceAsString());
+            System.out.println("1");
         }
     }
 
